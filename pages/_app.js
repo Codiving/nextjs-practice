@@ -11,7 +11,17 @@ function MyApp({ Component, pageProps }) {
         <li>
           <Link href="/intro">소개</Link>
         </li>
+        <li>
+          <Link href="/details/apple">사과</Link>
+        </li>
+        <li>
+          <Link href="/details/banana">바나나</Link>
+        </li>
+        <li>
+          <Link href="/details/orange">오렌지</Link>
+        </li>
       </ul>
+
       <Component {...pageProps} />
     </div>
   );
